@@ -12,6 +12,14 @@
     tech-contact: arago GmbH
     history:
     - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    - id: 2
+      date: 2015-05-20
+      description: |
+        - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeBundle`
+        - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
+        - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeItem`
+
+      modified-by: cwalker@arago.de
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Order', to: 'http://www.purl.org/ogit/Organization'}
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Order', to: 'http://www.purl.org/ogit/Person'}
@@ -60,3 +68,6 @@
     - {from: 'http://www.purl.org/ogit/Role', to: 'http://www.purl.org/ogit/BusinessProcess/TimerEvent'}
     - {from: 'http://www.purl.org/ogit/Role', to: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask'}
     - {from: 'http://www.purl.org/ogit/Role', to: 'http://www.purl.org/ogit/BusinessProcess/UserTask'}
+    - {from: 'http://www.purl.org/ogit/Forum/Tag', to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'}
+    - {from: 'http://www.purl.org/ogit/Forum/Tag', to: 'http://www.purl.org/ogit/Forum/Post'}
+    - {from: 'http://www.purl.org/ogit/Forum/Tag', to: 'http://www.purl.org/ogit/Forum/KnowledgeItem'}
